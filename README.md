@@ -5,11 +5,10 @@ Really simple script I made to copy sections of the screen to the clipboard. Cou
 run install.sh as root. 
 
 # Dependencies (install.sh will use apt-get to install them)
-xclip
-scrot
+xclip  
+scrot  
 
 # Usage
-scrots delay
-delay defaults to 0
-
+scrots [delay]  
+After the optional delay, click and drag a box over an area on your screen. Afterwards, paste the image wherever you want.
 # Have Fun
